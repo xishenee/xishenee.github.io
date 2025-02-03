@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Xi Shen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<nav id="main-nav"> <!-- Navigation bar =============================-->
+		<div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <!-- <a href="photos.html">Photos</a> -->
+    </nav>
+
+    <header>
+        <h1><font color="#682132">Contact</font></h1>
+    </header>
+
+    <section>
+        <!-- Placeholder content for Optical Correlators Section -->
+        <div id="Correlators" class="research-section">
+            <h2 align="center">email: XiShen2026@u.northwestern.edu</h2>
+
+			<div class="button-container">
+				<button class="publications-button" onclick="window.open('https://scholar.google.com/citations?hl=en&user=HPo9cvYAAAAJ&view_op=list_works&sortby=pubdate', '_blank')">
+						Google Scholar
+				</button>
+				<button class="publications-button" onclick="window.open('https://www.linkedin.com/in/xi-shen-1073b1239/', '_blank')">
+					LinkedIn
+				</button>
+				
+			</div>
+        </div>
+    </section>
+
+    <footer>© 2025 Xi Shen</footer>
+
+<script>
+	function toggleMenu() {
+		var nav = document.getElementById('main-nav');
+		nav.classList.toggle('show');
+	}
+</script>
+
+</body>
+</html>
