@@ -220,7 +220,7 @@
 	.address {
 		text-align: center;
 		font-size: 18px; /* Adjust font size if needed */
-		line-height: 0.6; /* Reduces space between lines */
+		line-height: 1; /* Reduces space between lines */
 		color: #666; /* Optional: Adjust text color */
 		margin-top: 20px;
 	}
